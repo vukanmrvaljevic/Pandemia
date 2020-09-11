@@ -1,0 +1,54 @@
+import React, { Component } from "react"
+import "../CSS/style.css"
+import { Link } from "react-router-dom"
+import covidLogo from "../Images/covid-logo.png"
+import map from "../Images/map-earth.png"
+import wearMask from "../Images/wear-mask.png"
+import helpingHands from "../Images/helping-hands.png"
+
+class Home extends Component {
+  render() {
+    return (
+      <div>
+        <header className="banner-home">
+          <div className="logo-image">
+            <img src={covidLogo} alt="covid logo" width="200" height="100" />
+          </div>
+        </header>
+        <h1 className>COVID RESOURCE CENTER</h1>
+        <div className="home-page-container">
+          <section className="home-box-container">
+            <img className="tracker-img" src={map} alt="map" />
+            <div className="home-box">
+              <h2>
+                <Link to="./track-covid">TRACK COVID-19</Link>
+              </h2>
+            </div>
+          </section>
+          <section className="home-box-container">
+            <img className="stay-safe-img" src={wearMask} alt="covid mask" />
+            <div className="home-box">
+              <h2>
+                <Link to="./stay-safe">STAY SAFE</Link>
+              </h2>
+            </div>
+          </section>
+          <section className="home-box-container">
+            <img
+              className="volunteer-img"
+              src={helpingHands}
+              alt="helping hands"
+            />
+            <div className="home-box">
+              <h2>
+                <Link to="./volunteer">VOLUNTEER</Link>
+              </h2>
+            </div>
+          </section>
+        </div>
+      </div>
+    )
+  }
+}
+
+export default Home
