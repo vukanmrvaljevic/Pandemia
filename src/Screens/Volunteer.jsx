@@ -16,7 +16,7 @@ class Volunteer extends Component {
   }
   render() {
     return (
-      <div>
+      <div className="entire-page">
         <header className="banner">
           <section className="nav-bar-logo">
             <div id="volunteer-pg-logo" className="logo-image">
@@ -32,7 +32,7 @@ class Volunteer extends Component {
             </div>
           </section>
         </header>
-        <h1>VOLUNTEER</h1>
+        <h1 className="volunteer-heading">VOLUNTEER</h1>
         <main className="volunteer-pg-container">
           <div className="volunteer-box">
             <div className="helping-hands">

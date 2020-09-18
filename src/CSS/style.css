@@ -364,6 +364,11 @@ a:visited {
     right: 100px;
   }
 
+  .menu-items {
+    position: absolute;
+    right: 140px;
+  }
+
   .navigation-button {
     margin-left: 190px;
   }
@@ -375,19 +380,30 @@ a:visited {
     margin-left: auto;
   }
 
-  .banner {
-    position: fixed;
-    margin-top: -30px;
-  }
-
   .volunteer-box {
     position: fixed;
-    margin-top: 120px;
+    margin-top: 20px;
+    margin-left: -60px;
   }
 
   .locations-button {
     position: fixed;
+    margin-bottom: -200px;
     margin-left: -70px;
+  }
+
+  .entire-page {
+    position: fixed;
+  }
+
+  .volunteer-heading {
+    position: fixed;
+    margin-top: -37px;
+    font-size: 32px;
+  }
+
+  .modal_content {
+    margin-left: -20px;
   }
 
   .home-page-container {
