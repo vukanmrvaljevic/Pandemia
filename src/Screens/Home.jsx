@@ -15,7 +15,7 @@ class Home extends Component {
             <img src={covidLogo} alt="covid logo" width="200" height="100" />
           </div>
         </header>
-        <h1 className>COVID RESOURCE CENTER</h1>
+        <h1 className="resource-center">COVID RESOURCE CENTER</h1>
         <div className="home-page-container">
           <section className="home-box-container">
             <img className="tracker-img" src={map} alt="map" />
