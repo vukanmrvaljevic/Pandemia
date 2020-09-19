@@ -191,7 +191,7 @@ a:visited {
 }
 
 .world-img {
-  margin-top: 65px;
+  margin-top: 15px;
   width: 800px;
 }
 
@@ -368,7 +368,7 @@ a:visited {
   body {
     background-color: whitesmoke;
   }
-
+  /* NavBar */
   .menu {
     position: relative;
     right: 100px;
@@ -390,6 +390,7 @@ a:visited {
     margin-left: auto;
   }
 
+  /* Volunteer Page */
   .volunteer-box {
     /* position: fixed; */
     margin-top: 20px;
@@ -403,6 +404,14 @@ a:visited {
     margin-left: -70px;
   }
 
+  .volunteer-locations {
+    display: flex;
+  }
+
+  .volunteer-box {
+    width: 100%;
+  }
+
   .volunteer-heading {
     /* position: fixed; */
     margin-top: -37px;
@@ -413,6 +422,11 @@ a:visited {
     margin-left: -170px;
   }
 
+  .popBox {
+    margin-left: auto;
+  }
+
+  /* Home Page */
   .home-page-container {
     display: flex;
     flex-direction: column;
@@ -425,18 +439,8 @@ a:visited {
   #button {
     margin-left: 150px;
   }
-  .volunteer-locations {
-    display: flex;
-  }
 
-  .volunteer-box {
-    width: 100%;
-  }
-
-  .popBox {
-    margin-left: auto;
-  }
-
+  /* Stay Safe Page */
   .treatment {
     width: 80%;
     height: 100%;
@@ -452,9 +456,16 @@ a:visited {
     grid-template-columns: 1fr;
   }
 
-  /* .locations-button {
-    position: relative;
-    top: 350px;
-    left: 10px;
-  } */
+  /*Track-Covid Page */
+  .world-img {
+    width: 370px;
+  }
+  .track-container {
+    width: 100%;
+    margin-top: 330px;
+    margin-bottom: 200px;
+  }
+  .covid-tracker {
+    width: 88%;
+  }
 }
