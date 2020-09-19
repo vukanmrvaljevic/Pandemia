@@ -17,7 +17,7 @@ class Volunteer extends Component {
   render() {
     return (
       <div className="entire-page">
-        <header className="banner">
+        <header className="banner-heading">
           <section className="nav-bar-logo">
             <div id="volunteer-pg-logo" className="logo-image">
               <img src={covidLogo} alt="covid logo" width="200" height="100" />

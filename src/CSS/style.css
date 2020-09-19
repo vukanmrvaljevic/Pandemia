@@ -285,6 +285,16 @@ a:visited {
 
 /*VOLUNTEER PAGE*/
 
+.banner-heading {
+  height: 150px;
+  background-color: #24222a;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 70px;
+}
+
 #help-hands-img {
   width: 400px;
   margin-top: 100px;
@@ -366,7 +376,7 @@ a:visited {
 
   .menu-items {
     position: absolute;
-    right: 140px;
+    right: 15px;
   }
 
   .navigation-button {
@@ -381,31 +391,26 @@ a:visited {
   }
 
   .volunteer-box {
-    position: fixed;
+    /* position: fixed; */
     margin-top: 20px;
-    margin-left: -60px;
+    margin-left: -5px;
   }
 
   .locations-button {
-    position: fixed;
+    /* position: fixed; */
     margin-top: 23px;
     margin-bottom: -200px;
     margin-left: -70px;
   }
 
-  .entire-page {
-    position: fixed;
-  }
-
   .volunteer-heading {
-    position: fixed;
+    /* position: fixed; */
     margin-top: -37px;
-    margin-left: 10px;
     font-size: 32px;
   }
 
   .modal_content {
-    margin-left: -20px;
+    margin-left: -170px;
   }
 
   .home-page-container {
