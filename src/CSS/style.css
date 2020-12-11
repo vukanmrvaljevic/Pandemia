@@ -155,6 +155,61 @@ a:visited {
   margin-top: 25px;
 }
 
+/*TRACK COVID PAGE*/
+
+.banner {
+  height: 150px;
+  background-color: #24222a;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 70px;
+}
+
+.menu {
+  margin-right: 35px;
+}
+
+.track-pg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 800px;
+  margin-top: 10px;
+}
+
+.track-container {
+  background-color: #e4e3e8;
+  width: 1100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 65px;
+  border-radius: 10px;
+}
+
+.world-img {
+  margin-top: 15px;
+  width: 800px;
+}
+
+.covid-tracker {
+  border-radius: 10px;
+  background: white;
+  box-shadow: 1px 1px darkgrey, -1em 0 0.9em grey;
+  padding: 20px;
+  color: black;
+  width: 500px;
+  height: 100%;
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+}
+
 /*MEDIA QUERIES*/
 
 @media only screen and (max-width: 560px) {
