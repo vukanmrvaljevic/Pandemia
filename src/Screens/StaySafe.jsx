@@ -22,7 +22,7 @@ class StaySafe extends Component {
           <section className="navigation-button">
             <button className="menu">Menu</button>
             <div className="menu-items">
-              <Link to="/">Home</Link>
+              <Link to="/">HOME</Link>
               <Link to="./track-covid">TRACK COVID-19</Link>
               <Link to="./volunteer">VOLUNTEER</Link>
             </div>
