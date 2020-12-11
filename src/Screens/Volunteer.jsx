@@ -24,7 +24,7 @@ class Volunteer extends Component {
             </div>
           </section>
           <section className="navigation-button">
-            <button className="menu">Menu</button>
+            <button className="menu">MENU</button>
             <div className="menu-items">
               <Link to="/">HOME</Link>
               <Link to="./track-covid">TRACK COVID-19</Link>
