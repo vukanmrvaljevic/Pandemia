@@ -39,7 +39,7 @@ class TrackCovid extends React.Component {
           <section className="navigation-button">
             <button className="menu">Menu</button>
             <div className="menu-items">
-              <Link to="/">Home</Link>
+              <Link to="/">HOME</Link>
               <Link to="./volunteer">VOLUNTEER</Link>
               <Link to="./stay-safe">STAY-SAFE</Link>
             </div>
