@@ -210,6 +210,79 @@ a:visited {
   flex-flow: column;
 }
 
+/*STAY SAFE PAGE*/
+
+.prevent-covid {
+  background-color: #e4e3e8;
+  padding: 20px;
+  font-size: 20px;
+  width: 400px;
+  border-radius: 10px;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stay-safe-container {
+  border-radius: 10px;
+  /* box-shadow: 3px 3px darkgrey, -1em 0 0.4em grey; */
+  /* border: 2px solid black; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  color: black;
+  width: 1600px;
+  height: 100%;
+  margin: 0 auto;
+  margin-top: 15px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.safety-heading {
+  color: #c94a40;
+  font-weight: 900;
+  font-size: 25px;
+}
+
+.count-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-basis: 150px;
+}
+
+.wash-hands {
+  width: 200px;
+  margin-top: 25px;
+}
+
+.close-contact {
+  width: 225px;
+  z-index: 154;
+}
+
+.cover-mouth {
+  width: 260px;
+  margin-top: -20px;
+}
+
+.cover-cough {
+  width: 240px;
+  margin-top: -25px;
+}
+
+.sanitize {
+  width: 230px;
+  margin-top: -10px;
+}
+
+.monitor-health {
+  width: 300px;
+  margin-top: 40px;
+}
+
 /*MEDIA QUERIES*/
 
 @media only screen and (max-width: 560px) {
