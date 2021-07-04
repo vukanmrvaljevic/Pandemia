@@ -20,7 +20,7 @@ class Volunteer extends Component {
         <header className="banner-heading">
           <section className="nav-bar-logo">
             <div id="volunteer-pg-logo" className="logo-image">
-              <img src={covidLogo} alt="covid logo" width="200" height="100" />
+            <Link to="/"><img src={covidLogo} alt="covid logo" width="200" height="100"/></Link>
             </div>
           </section>
           <section className="navigation-button">
@@ -28,7 +28,7 @@ class Volunteer extends Component {
             <div className="menu-items">
               <Link to="/">HOME</Link>
               <Link to="./track-covid">TRACK COVID-19</Link>
-              <Link to="./stay-safe">STAY SAFE</Link>
+              <Link to="./stay safe">STAY SAFE</Link>
             </div>
           </section>
         </header>

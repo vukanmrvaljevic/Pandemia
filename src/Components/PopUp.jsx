@@ -1,5 +1,4 @@
 import React, { Component } from "react"
-import { Link } from "react-router-dom"
 
 class PopUp extends Component {
   handleClick = () => {
@@ -15,485 +14,479 @@ class PopUp extends Component {
           </span>
           <form>
             <div>
-              <p>
-                <Link
+             <p>
+                <a
                   href="https://www.servealabama.gov/covid19"
-                  target="blank"
-                >
+                  target="blank">
                   Alabama
-                </Link>
+                </a>         
               </p>
             </div>
             <div>
               <p>
-                <Link
+                <a
                   href="https://alaska.providence.org/services/volunteer"
                   target="blank"
                 >
                   Alaska
-                </Link>
+                </a>
               </p>
             </div>
             <div>
               <p>
-                <Link
+                <a
                   href="https://www.handsonphoenix.org/covid19?layoutViewMode=tablet"
                   target="blank"
                 >
                   Arizona
-                </Link>
+                </a>
               </p>
             </div>
             <div>
               <p>
-                <Link
+                <a
                   href="https://www.volunteerar.org/?layoutViewMode=tablet"
                   target="blank"
                 >
                   Arkansas
-                </Link>
+                </a>
               </p>
             </div>
             <div>
               <p>
-                <Link
+                <a
                   href="https://www.californiavolunteers.ca.gov/get-involved/covid-19/"
                   target="blank"
                 >
                   California
-                </Link>
+                </a>
               </p>
             </div>
             <div>
               <p>
-                <Link
+                <a
                   href="https://www.sparkthechangecolorado.org/covid19resources?layoutViewMode=tablet"
                   target="blank"
                 >
                   Colorado
-                </Link>
+                </a>
               </p>
             </div>
             <div>
               <p>
-                <Link
+                <a
                   href="https://portal.ct.gov/Coronavirus/Information-For/Volunteers"
                   target="blank"
                 >
                   Connecticut
-                </Link>
+                </a>
               </p>
             </div>
             <div>
               <p>
-                <Link
+                <a
                   href="https://volunteer.delaware.gov/?layoutViewMode=tablet"
                   target="blank"
                 >
                   Delaware
-                </Link>
+                </a>
               </p>
             </div>
             <div>
               <p>
-                <Link
+                <a
                   href="https://www.volunteerflorida.org/covid/"
                   target="blank"
                 >
                   Florida
-                </Link>
+                </a>
               </p>
             </div>
             <div>
               <p>
-                <Link
+                <a
                   href="https://dph.georgia.gov/press-releases/2020-03-24/volunteer-covid-19-response"
                   target="blank"
                 >
                   Georgia
-                </Link>
+                </a>
               </p>
             </div>
             <div>
               <p>
-                <Link href="https://auw.galaxydigital.com/" target="blank">
+                <a href="https://auw.galaxydigital.com/" target="blank">
                   Hawaii
-                </Link>
+                </a>
               </p>
             </div>
             <div>
               <p>
-                <Link
+                <a
                   href="https://coronavirus.idaho.gov/how-to-help/"
                   target="blank"
                 >
                   Idaho
-                </Link>
+                </a>
               </p>
             </div>
             <div>
               <p>
-                <Link
+                <a
                   href="https://serveillinois.galaxydigital.com/"
                   target="blank"
                 >
                   Illinois
-                </Link>
+                </a>
               </p>
             </div>
             <div>
               <p>
-                <Link
+                <a
                   href="https://uwci.org/united-ways-covid-19-volunteer-response/"
                   target="blank"
                 >
                   Indiana
-                </Link>
+                </a>
               </p>
             </div>
             <div>
               <p>
-                <Link
+                <a
                   href="https://volunteeriowa.galaxydigital.com/"
                   target="blank"
                 >
                   Iowa
-                </Link>
+                </a>
               </p>
             </div>
             <div>
               <p>
-                <Link
+                <a
                   href="https://www.volunteeruwgkc.com/_landing/crisis-volunteer-guide/"
                   target="blank"
                 >
                   Kansas
-                </Link>
+                </a>
               </p>
             </div>
             <div>
               <p>
-                <Link
+                <a
                   href="https://serve.ky.gov/disaster/Pages/COVID-19.aspx"
                   target="blank"
                 >
                   Kentucky
-                </Link>
+                </a>
               </p>
             </div>
             <div>
               <p>
-                <Link
+                <a
                   href="https://volunteerlouisiana.gov/disaster-services"
                   target="blank"
                 >
                   Louisiana
-                </Link>
+                </a>
               </p>
             </div>
             <div>
               <p>
-                <Link
+                <a
                   href="https://www.maine.gov/covid19/maine-helps"
                   target="blank"
                 >
                   Maine
-                </Link>
+                </a>
               </p>
             </div>
             <div>
               <p>
-                <Link
+                <a
                   href="https://governor.maryland.gov/marylandunites/"
                   target="blank"
                 >
                   Maryland
-                </Link>
+                </a>
               </p>
             </div>
             <div>
               <p>
-                <Link
+                <a
                   href="https://www.volunteermatch.org/covid19"
                   target="blank"
                 >
                   Massachusetts
-                </Link>
+                </a>
               </p>
             </div>
             <div>
               <p>
-                <Link
+                <a
                   href="https://www.michigan.gov/coronavirus/0,9753,7-406-98178_98811---,00.html"
                   target="blank"
                 >
                   Michigan
-                </Link>
+                </a>
               </p>
             </div>
             <div>
               <p>
-                <Link
+                <a
                   href="https://mn.gov/covid19/for-minnesotans/volunteer/"
                   target="blank"
                 >
                   Minnesota
-                </Link>
+                </a>
               </p>
             </div>
             <div>
               <p>
-                <Link
+                <a
                   href="https://www.volunteermississippi.ms.gov/"
                   target="blank"
                 >
                   Mississippi
-                </Link>
+                </a>
               </p>
             </div>
             <div>
               <p>
-                <Link
+                <a
                   href="https://www.stlvolunteer.org/covid19?layoutViewMode=tablet"
                   target="blank"
                 >
                   Missouri
-                </Link>
+                </a>
               </p>
             </div>
             <div>
               <p>
-                <Link href="http://www.volunteermissoula.org/" target="blank">
-                  Missouri
-                </Link>
-              </p>
-            </div>
-            <div>
-              <p>
-                <Link href="https://www.serve.nebraska.gov/" target="blank">
+                 <a
+                  href="https://www.serve.nebraska.gov/"
+                  target="blank">
                   Nebraska
-                </Link>
+                </a>
               </p>
             </div>
             <div>
               <p>
-                <Link
+                <a
                   href="https://nevadavolunteers.org/get-involved/"
                   target="blank"
                 >
                   Nevada
-                </Link>
+                </a>
               </p>
             </div>
             <div>
               <p>
-                <Link href="https://volunteernh.org/" target="blank">
+                <a href="https://volunteernh.org/" target="blank">
                   New Hampshire
-                </Link>
+                </a>
               </p>
             </div>
             <div>
               <p>
-                <Link
+                <a
                   href="https://www.nj.gov/state/volunteer-in-nj.shtml"
                   target="blank"
                 >
                   New Jersey
-                </Link>
+                </a>
               </p>
             </div>
             <div>
               <p>
-                <Link
+                <a
                   href="https://www.newmexico.gov/2020/03/17/heres-how-you-can-help-during-covid-19/"
                   target="blank"
                 >
                   New Mexico
-                </Link>
+                </a>
               </p>
             </div>
             <div>
               <p>
-                <Link
+                <a
                   href="https://www1.nyc.gov/site/helpnownyc/index.page"
                   target="blank"
                 >
                   New York
-                </Link>
+                </a>
               </p>
             </div>
             <div>
               <p>
-                <Link
+                <a
                   href="https://www.nc.gov/volunteer/volunteer-opportunities"
                   target="blank"
                 >
                   North Carolina
-                </Link>
+                </a>
               </p>
             </div>
             <div>
               <p>
-                <Link
+                <a
                   href="https://www.volunteermatch.org/search/orgs.jsp?r=region&categories=23&l=North+Dakota%2C+USA"
                   target="blank"
                 >
                   North Dakota
-                </Link>
+                </a>
               </p>
             </div>
             <div>
               <p>
-                <Link href="https://www.voaohin.org/covid-19" target="blank">
+                <a href="https://www.voaohin.org/covid-19" target="blank">
                   Ohio
-                </Link>
+                </a>
               </p>
             </div>
             <div>
               <p>
-                <Link
+                <a
                   href="http://www.volunteercentraloklahoma.org/"
                   target="blank"
                 >
                   Oklahoma
-                </Link>
+                </a>
               </p>
             </div>
             <div>
               <p>
-                <Link
+                <a
                   href="https://www.oregon.gov/highered/institutions-programs/workforce/Pages/Oregon-volunteering.aspx"
                   target="blank"
                 >
                   Oregon
-                </Link>
+                </a>
               </p>
             </div>
             <div>
               <p>
-                <Link
+                <a
                   href="https://www.uwp.org/member/member-information/knowledge-cafe/coronavirus-covid-19-hub/covid-19-volunteer-information-resources/"
                   target="blank"
                 >
                   Pennsylvania
-                </Link>
+                </a>
               </p>
             </div>
             <div>
               <p>
-                <Link
+                <a
                   href="https://health.ri.gov/covid/howtohelp/"
                   target="blank"
                 >
                   Rhode Island
-                </Link>
+                </a>
               </p>
             </div>
             <div>
               <p>
-                <Link
+                <a
                   href="https://www.uwasc.org/volunteer-south-carolina"
                   target="blank"
                 >
                   South Carolina
-                </Link>
+                </a>
               </p>
             </div>
             <div>
               <p>
-                <Link
+                <a
                   href="https://doh.sd.gov/providers/preparedness/volunteer.aspx"
                   target="blank"
                 >
                   South Dakota
-                </Link>
+                </a>
               </p>
             </div>
             <div>
               <p>
-                <Link
+                <a
                   href="https://www.tn.gov/volunteer-tennessee.html"
                   target="blank"
                 >
                   Tennessee
-                </Link>
+                </a>
               </p>
             </div>
             <div>
               <p>
-                <Link
+                <a
                   href="http://onestarfoundation.org/coronavirus/"
                   target="blank"
                 >
                   Texas
-                </Link>
+                </a>
               </p>
             </div>
             <div>
               <p>
-                <Link href="https://coronavirus.utah.gov/help/" target="blank">
+                <a href="https://coronavirus.utah.gov/help/" target="blank">
                   Utah
-                </Link>
+                </a>
               </p>
             </div>
             <div>
               <p>
-                <Link
+                <a
                   href="https://www.vermont.gov/volunteer#gsc.tab=0"
                   target="blank"
                 >
                   Vermont
-                </Link>
+                </a>
               </p>
             </div>
             <div>
               <p>
-                <Link
+                <a
                   href="http://virginiaservice.virginia.gov/volunteering/volunteer-centers/"
                   target="blank"
                 >
                   Virginia
-                </Link>
+                </a>
               </p>
             </div>
             <div>
               <p>
-                <Link
+                <a
                   href="https://covid19helpwa.org/volunteer/"
                   target="blank"
                 >
                   Washington
-                </Link>
+                </a>
               </p>
             </div>
             <div>
               <p>
-                <Link
+                <a
                   href="https://volunteer.wv.gov/Volunteer/Pages/Covid-19.aspx"
                   target="blank"
                 >
                   West Virginia
-                </Link>
+                </a>
               </p>
             </div>
             <div>
               <p>
-                <Link
+                <a
                   href="http://volunteerwisconsin.galaxydigital.com/"
                   target="blank"
                 >
                   Wisconsin
-                </Link>
+                </a>
               </p>
             </div>
             <div>
               <p>
-                <Link
+                <a
                   href="http://www.volunteerwyoming.org/need/index?s=1&need_init_id=3038"
                   target="blank"
                 >
                   Wyoming
-                </Link>
+                </a>
               </p>
             </div>
           </form>

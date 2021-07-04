@@ -33,7 +33,7 @@ class TrackCovid extends React.Component {
         <header className="banner">
           <section className="nav-bar-logo">
             <div id="track-pg-logo" className="logo-image">
-              <img src={covidLogo} alt="covid logo" width="200" height="100" />
+            <Link to="/"><img src={covidLogo} alt="covid logo" width="200" height="100"/></Link>
             </div>
           </section>
           <section className="navigation-button">
@@ -41,11 +41,12 @@ class TrackCovid extends React.Component {
             <div className="menu-items">
               <Link to="/">HOME</Link>
               <Link to="./volunteer">VOLUNTEER</Link>
-              <Link to="./stay-safe">STAY-SAFE</Link>
+              <Link to="./stay safe">STAY SAFE</Link>
             </div>
           </section>
-        </header>
-        <section className="track-pg-container">
+            </header>
+            <h1 className="covid-header">TRACK COVID-19</h1>
+            <section className="track-pg-container">
           <div className="track-container">
             <div className="track-img">
               <img className="world-img" src={worldMap} alt="World-Map" />

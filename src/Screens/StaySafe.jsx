@@ -16,7 +16,7 @@ class StaySafe extends Component {
         <header className="banner">
           <section className="nav-bar-logo">
             <div id="stay-safe-pg-logo" className="logo-image">
-              <img src={covidLogo} alt="covid logo" width="200" height="100" />
+            <Link to="/"><img src={covidLogo} alt="covid logo" width="200" height="100"/></Link>
             </div>
           </section>
           <section className="navigation-button">

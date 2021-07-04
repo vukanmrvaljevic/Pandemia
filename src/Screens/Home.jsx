@@ -7,13 +7,23 @@ import wearMask from "../Images/wear-mask.png"
 import helpingHands from "../Images/helping-hands.png"
 
 class Home extends Component {
-  render() {
+    render() {
     return (
       <div>
-        <header className="banner-home">
-          <div className="logo-image">
-            <img src={covidLogo} alt="covid logo" width="200" height="100" />
-          </div>
+       <header className="banner">
+          <section className="logo-image">
+            <div id="stay-safe-pg-logo" className="logo-image">
+            <img src={covidLogo} alt="covid logo" width="200" height="100"/>
+            </div>
+          </section>
+          <section className="navigation-button">
+            <button className="menu">MENU</button>
+            <div className="menu-items">
+              <Link to="./track-covid">TRACK COVID-19</Link>
+              <Link to="/stay safe">STAY SAFE</Link>
+              <Link to="./volunteer">VOLUNTEER</Link>
+            </div>
+          </section>
         </header>
         <h1 className="resource-center">COVID RESOURCE CENTER</h1>
         <div className="home-page-container">
@@ -29,7 +39,7 @@ class Home extends Component {
             <img className="stay-safe-img" src={wearMask} alt="covid mask" />
             <div className="home-box">
               <h2>
-                <Link to="./stay-safe">STAY SAFE</Link>
+                <Link to="./stay safe">STAY SAFE</Link>
               </h2>
             </div>
           </section>
