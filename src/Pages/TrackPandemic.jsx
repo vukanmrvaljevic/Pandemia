@@ -45,7 +45,7 @@ class TrackCovid extends React.Component {
             </div>
           </section>
             </header>
-            <h1 className="covid-header">COVID-19</h1>
+            <h1 className="covid-header">TRACK COVID-19</h1>
             <section className="track-pg-container">
           <div className="track-container">
             <div className="track-img">
