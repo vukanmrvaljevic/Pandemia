@@ -25,7 +25,7 @@ class Home extends Component {
             </div>
           </section>
         </header>
-        <h1 className="resource-center">COVID RESOURCE CENTER</h1>
+        <h1 className="resource-center"> PANDEMIC RESOURCE CENTER</h1>
         <div className="home-page-container">
           <section className="home-box-container">
             <img className="tracker-img" src={map} alt="map" />
