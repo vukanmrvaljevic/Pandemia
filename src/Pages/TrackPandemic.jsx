@@ -3,7 +3,7 @@ import CountryPicker from "../Components/CountryPicker/CountryPicker"
 import Cards from "../Components/Cards/Cards"
 import { fetchData } from "../api"
 import { Link } from "react-router-dom"
-import covidLogo from "../Images/covid-logo.png"
+import pandemiaLogo from "../Images/pandemia-logo.svg"
 import "../CSS/style.css"
 import worldMap from "../Images/world-map-large.png"
 
@@ -33,7 +33,7 @@ class TrackCovid extends React.Component {
         <header className="banner">
           <section className="nav-bar-logo">
             <div id="track-pg-logo" className="logo-image">
-            <Link to="/"><img src={covidLogo} alt="covid logo" width="200" height="100"/></Link>
+            <Link to="/"><img src={pandemiaLogo} alt="covid logo" width="200" height="200"/></Link>
             </div>
           </section>
           <section className="navigation-button">
