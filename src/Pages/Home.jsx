@@ -19,7 +19,7 @@ class Home extends Component {
           <section className="navigation-button">
             <button className="menu">MENU</button>
             <div className="menu-items">
-              <Link to="./track-covid">TRACK CURRENT PANDEMIC</Link>
+              <Link to="./track-covid">TRACK PANDEMIC</Link>
               <Link to="/stay safe">STAY SAFE</Link>
               <Link to="./volunteer">VOLUNTEER</Link>
             </div>
@@ -31,7 +31,7 @@ class Home extends Component {
             <img className="tracker-img" src={map} alt="map" />
             <div className="home-box">
               <h2>
-                <Link to="./track-covid">TRACK CURRENT PANDEMIC</Link>
+                <Link to="./track-covid">TRACK PANDEMIC</Link>
               </h2>
             </div>
           </section>

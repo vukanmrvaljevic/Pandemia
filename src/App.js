@@ -3,7 +3,7 @@ import { Route, Switch } from "react-router-dom"
 import "./App.css"
 import Home from "./Pages/Home.jsx"
 import staySafe from "./Pages/StaySafe.jsx"
-import trackCovid from "./Pages/TrackCovid.jsx"
+import trackCovid from "./Pages/TrackPandemic.jsx"
 import volunteer from "./Pages/Volunteer.jsx"
 
 function App() {
