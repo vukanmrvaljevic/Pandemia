@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import "../CSS/style.css"
 import { Link } from "react-router-dom"
-import covidLogo from "../Images/covid-logo.png"
+import covidLogo from "../Images/pandemia-logo.svg"
 import map from "../Images/map-earth.png"
 import wearMask from "../Images/wear-mask.png"
 import helpingHands from "../Images/helping-hands.png"
