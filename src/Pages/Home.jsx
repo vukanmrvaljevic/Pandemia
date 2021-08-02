@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import "../CSS/style.css"
 import { Link } from "react-router-dom"
-import covidLogo from "../Images/pandemia-logo.svg"
+import pandemiaLogo from "../Images/pandemia-logo.svg"
 import map from "../Images/map-earth.png"
 import wearMask from "../Images/wear-mask.png"
 import helpingHands from "../Images/helping-hands.png"
@@ -13,7 +13,7 @@ class Home extends Component {
        <header className="banner">
           <section className="logo-image">
             <div id="stay-safe-pg-logo" className="logo-image">
-            <img src={covidLogo} alt="covid logo" width="200" height="100"/>
+            <img src={pandemiaLogo} alt="covid logo" width="200" height=""/>
             </div>
           </section>
           <section className="navigation-button">
