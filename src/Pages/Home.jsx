@@ -31,7 +31,7 @@ class Home extends Component {
             <img className="tracker-img" src={map} alt="map" />
             <div className="home-box">
               <h2>
-                <Link to="./track-covid">TRACK COVID-19</Link>
+                <Link to="./track-covid">TRACK CURRENT PANDEMIC</Link>
               </h2>
             </div>
           </section>
