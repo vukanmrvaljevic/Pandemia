@@ -13,7 +13,7 @@ class Home extends Component {
        <header className="banner">
           <section className="logo-image">
             <div id="stay-safe-pg-logo" className="logo-image">
-            <img src={pandemiaLogo} alt="covid logo" width="200" height=""/>
+            <img src={pandemiaLogo} alt="covid logo" width="200" height="200"/>
             </div>
           </section>
           <section className="navigation-button">
