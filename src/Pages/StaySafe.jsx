@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import covidLogo from "../Images/covid-logo.png"
+import pandemiaLogo from "../Images/pandemia-logo.svg"
 import "../CSS/style.css"
 import { Link } from "react-router-dom"
 import wash from "../Images/wash-hands-filled.png"
@@ -16,7 +16,7 @@ class StaySafe extends Component {
         <header className="banner">
           <section className="nav-bar-logo">
             <div id="stay-safe-pg-logo" className="logo-image">
-            <Link to="/"><img src={covidLogo} alt="covid logo" width="200" height="100"/></Link>
+            <Link to="/"><img src={pandemiaLogo} alt="pandemia logo" width="200" height="200"/></Link>
             </div>
           </section>
           <section className="navigation-button">
